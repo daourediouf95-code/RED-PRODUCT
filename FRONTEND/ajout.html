@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>AJOUTER UN HOTEL</title>
+</head>
+
+<body class="flex justify-center items-center bg-[#DDDDDD]">
+    <form class=" bg-[#F0F0F0] h-3/4 flex flex-col w-1/2">
+        <div class="flex flex-rows gap-2 pt-4 ml-4 ">
+            <a href=""><i class="fa-solid fa-arrow-left mt-1"></i></a>
+            <h1 class="">CRÉER UN NOUVEAU HÔTEL</h1>
+        </div>
+        <br />
+        <div class="border-dashed border-2 border-black-600">
+
+        </div>
+        <div class="grid grid-rows-2 grid-cols-2 flex ml-16 gap-4 w-4/5 h-72 bg-[#F0F0F0] p-3 ">
+            <div class="flex flex-col w-60">
+                <label for="">Nom de l'Hôtel</label>
+                <input type="text" placeholder="CAP Mamiane" class="pl-4 h-8 rounded-lg">
+            </div>
+            <div class="flex flex-col w-60 ">
+                <label for="">Adresse</label>
+                <input type="text" placeholder="Les îles du Saloum, Mar Lodj" class="pl-4 h-8 rounded-lg">
+            </div>
+            <div class="flex flex-col w-60">
+                <label for="">E-Mail</label>
+                <input type="email" placeholder="Information@gmail.com" class="pl-4 h-8 rounded-lg">
+            </div>
+
+            <div class="flex flex-col w-60">
+                <label for="">Numéro de Téléphone</label>
+                <input type="tel" placeholder="+221 77 77 77 777" class="pl-4 h-8 rounded-lg">
+            </div>
+            <div class="flex flex-col w-60">
+                <label for="">Prix par Nuit</label>
+                <input type="tel" placeholder="25.000 XOF" class="pl-4 h-8 rounded-lg">
+            </div>
+            <div class="flex flex-col w-60">
+                <label for="">Devise</label>
+                <div class="col-auto ">
+                    <select class="form-select w-60 pl-4 h-8 rounded-lg" id="autoSizingSelect">
+                        <option value="1" selected>F XOF</option>
+                        <option value="2">Euro</option>
+                        <option value="3">Dollar</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="flex flex-col bg-[#F0F0F0] w-4/5 ml-16">
+            <h1>Ajouter une photo</h1>
+            <br />
+            <div class=" bg-[#FFFFFF] w-full flex justify-center h-44 rounded-lg">
+                <img src="../images/Group 1171274844.png" alt="Photo" class="">
+            </div>
+        </div>
+        <br />
+        <div class="flex justify-end mr-16">
+            <button class="flex justify-center items-center bg-[#555555] h-10 w-24 mb-10 rounded-lg"><a
+                    href="">Envoyer</a></button>
+        </div>
+
+    </form>
+</body>
+
+</html>

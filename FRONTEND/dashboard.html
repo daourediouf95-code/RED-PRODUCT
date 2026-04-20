@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>DASHBOARD</title>
+</head>
+
+<body class="flex flex-col">
+    <aside class="flex flex-rows bg-[#F0F0F0]">
+        <!-- à gauche -->
+        <div class="flex flex-col justify-between h-screen w-80 bg-[#494C4F]">
+            <div class="flex flex-col justify-between gap-4 p-4 sm:m-2">
+                <div class="flex flex-col gap-2 w-36">
+                    <div class="flex">
+                        <img src="../images/Link → SVG.png" alt="Photo">
+                        <h1 class="text-white">RED PRODUCT</h1>
+                    </div>
+                    <div class="flex">
+                        <h6 class="text-center text-white text-1xl">Principal</h6>
+                    </div>
+                </div>
+                <div class="flex gap-2 text-white">
+                    <img src="../images/layout-dashboard 1 (1).png" alt="Photo" class="flex h-6">
+                    <h1 class="hover:text-[#494C4F]">Dashboard</h1>
+                </div>
+
+                <div class="flex gap-2">
+                    <img src="../images/gaming-control 1.png" alt="Photo" class="">
+                    <a href="">
+                        <h2 class="text-white">Liste des hôtels</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex gap-2 p-4 border-t-2 sm:m-4">
+                <div class="">
+                    <img src="../images/photo-alternance.jpg" alt="Photo" class="h-10 w-10 rounded-full">
+                </div>
+                <div class="block">
+                    <h3 class="text-white">Vicky Mendy</h3>
+                    <div class="flex gap-2">
+                        <img src="../images/Small.png" alt="photo" class="h-5">
+                        <p class="">en ligne</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navbar -->
+        <div class="flex flex-col sm:w-full">
+            <div class="flex flex-col w-full">
+                <div class="flex justify-between gap-4 h-12 h-16 bg-[#FFFFFF] sm:items-center">
+                    <div class="flex flex-col sm:pl-4">
+                        <h4 class="pt-3">Dashboard</h4>
+                    </div>
+                    <div class="flex justify-end gap-2 border-solid-black rounded-lg sm:mr-4 lg:mr-10">
+                        <div class="flex gap-1 pt-3 h-5">
+                            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <input type="search" placeholder="Rechercher" class="h-6 w-4 rounded-lg sm:w-full">
+                        </div>
+                        <div class="flex flex-rows gap-1 pt-3 sm:gap-2">
+                            <i class="pt-1 fa-regular fa-bell"></i>
+                            <img src="../images/photo-alternance.jpg" alt="Photo" class="pt-1 h-5 rounded-full">
+                            <a href="connexion.html"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col border-t-4">
+                <div class="bg-[#FFFFFF] sm:pl-4">
+                    <h1>Bienvenue sur RED Product</h1>
+                    <p>Lorem ipsum dolor sit amet consecteur</p>
+                </div>
+            </div>
+            <!-- cardes -->
+            <div class="grid grid-cols-1 gap-4 gap-1 m-4 w-full w-80 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="flex items-center p-3 h-20 w-full h-32 bg-[#FFFFFF] rounded-lg">
+                    <i
+                        class="flex justify-center items-center h-10 w-10 bg-[#A88ADD] rounded-full fa-solid fa-envelope"></i>
+                    <div class="p-3">
+                        <h2>125Formulaires</h2>
+                        <p>Je ne sais quoi</p>
+                    </div>
+                </div>
+                <div class="flex items-center p-3 h-20 w-full bg-[#FFFFFF] rounded-lg sm:h-32">
+                    <i class="flex justify-center items-center h-10 w-10 bg-[#0CC2AA] rounded-full fa-solid fa-p"></i>
+                    <div class="p-3">
+                        <h2>40 Messages</h2>
+                        <p>Je ne sais quoi</p>
+                    </div>
+                </div>
+                <div class="flex items-center p-3 h-20 w-full bg-[#FFFFFF] rounded-lg sm:h-32">
+                    <i
+                        class="flex justify-center items-center h-10 w-10 bg-[#FCC100] rounded-full fa-solid fa-users"></i>
+                    <div class="p-3">
+                        <h2>600 Utilisateurs</h2>
+                        <p>Je ne sais quoi</p>
+                    </div>
+                </div>
+                <div class="flex items-center p-3 h-20 w-full bg-[#FFFFFF] rounded-lg sm:h-32">
+                    <i
+                        class="flex justify-center items-center h-10 w-10 bg-[#F90000] rounded-full fa-solid fa-envelope"></i>
+                    <div class="p-3">
+                        <h2>25 E-Mails</h2>
+                        <p>Je ne sais quoi</p>
+                    </div>
+                </div>
+                <div class="flex items-center p-3 h-20 w-full bg-[#FFFFFF] rounded-lg sm:h-32">
+                    <i class="flex justify-center items-center h-10 w-10 bg-[#9C27B0] rounded-full fa-solid fa-p"></i>
+                    <div class="p-3">
+                        <h2>40 Hôtels</h2>
+                        <p>Je ne sais quoi</p>
+                    </div>
+                </div>
+                <div class="flex items-center p-3 h-20 w-full bg-[#FFFFFF] rounded-lg sm:h-32">
+                    <i
+                        class="flex justify-center items-center h-10 w-10 bg-[#1565C0] rounded-full fa-solid fa-users"></i>
+                    <div class="p-3">
+                        <h2>02 Entités</h2>
+                        <p>Je ne sais quoi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </aside>
+</body>
+
+</html>
